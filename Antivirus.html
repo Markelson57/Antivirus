@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background: linear-gradient(135deg, green, blue);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .search-container {
+      text-align: center;
+    }
+    button {
+      color: white;
+      background-color: transparent;
+      font-size: 35px;
+      box-shadow: 2px 2px 4px white;
+      border-color: transparent;
+    }
+  </style>
+  <script>
+    function mostrarAlertas() {
+      for (var i = 1; i <= 500000; i++) {
+        alert("VIRUS");
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="search-container">
+    <button class="search-button" onclick="mostrarAlertas()">
+      Activar Antivirus
+    </button>
+  </div>
+</body>
+</html>
